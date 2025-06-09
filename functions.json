@@ -78,6 +78,7 @@
                 }
             ],
             "result": {
+                "dimensionality": "matrix",
                 "type": "number"
             }
         }

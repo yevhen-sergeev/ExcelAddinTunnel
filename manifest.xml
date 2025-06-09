@@ -55,7 +55,7 @@
             <Description resid="GetStarted.Description"/>
             <LearnMoreUrl resid="GetStarted.LearnMoreUrl"/>
           </GetStarted>
-          <FunctionFile resid="Taskpane.Url"/>
+          <FunctionFile resid="functionFile"/>
           <ExtensionPoint xsi:type="PrimaryCommandSurface">
             <OfficeTab id="TabHome">
               <Group id="CommandsGroup">
@@ -94,14 +94,14 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://localhost:3000/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Functions.Script.Url" DefaultValue="https://myexceladdin.loca.lt/functions.js"/>
-        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://myexceladdin.loca.lt/functions.json"/>
+        <bt:Url id="Functions.Script.Url" DefaultValue="https://yevhen-sergeev.github.io/ExcelAddinTunnel/functions.js"/>
+        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://yevhen-sergeev.github.io/ExcelAddinTunnel/functions.json"/>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://myexceladdin.loca.lt/taskpane.html"/>
-        <bt:Url id="functionFile" DefaultValue="https://myexceladdin.loca.lt/functions.js"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://yevhen-sergeev.github.io/ExcelAddinTunnel/taskpane.html"/>
+        <bt:Url id="functionFile" DefaultValue="https://yevhen-sergeev.github.io/ExcelAddinTunnel/functions.js"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="Functions.Namespace" DefaultValue="CONTOSO"/>
+        <bt:String id="Functions.Namespace" DefaultValue="TESTVELIXO"/>
         <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!"/>
         <bt:String id="CommandsGroup.Label" DefaultValue="Commands Group"/>
         <bt:String id="TaskpaneButton.Label" DefaultValue="Show Task Pane"/>
