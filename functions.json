@@ -81,6 +81,22 @@
                 "dimensionality": "matrix",
                 "type": "string"
             }
+        },
+        {
+            "description": "Возвращает ряд факториалов от 0 до n",
+            "id": "FACTORIALROW_WORKER",
+            "name": "FACTORIALROW_WORKER",
+            "parameters": [
+                {
+                    "description": "Число, до которого считать факториалы",
+                    "name": "n",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
         }
     ]
 }
