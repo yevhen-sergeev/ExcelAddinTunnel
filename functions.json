@@ -81,6 +81,30 @@
                 "dimensionality": "matrix",
                 "type": "string"
             }
+        },
+        {
+            "description": "Simple function to test deployment",
+            "id": "PING",
+            "name": "PING",
+            "parameters": [],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
+            "description": "Test factorial simplified",
+            "id": "FACTTEST",
+            "name": "FACTTEST",
+            "parameters": [
+                {
+                    "description": "Number",
+                    "name": "n",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
         }
     ]
 }
