@@ -35,6 +35,9 @@
         <Runtimes>
           <Runtime resid="Taskpane.Url" lifetime="long"/>
         </Runtimes>
+        <Script>
+          <SourceLocation DefaultValue="https://appsforoffice.microsoft.com/lib/1/hosted/Office.js"/>
+        </Script>
         <AllFormFactors>
           <ExtensionPoint xsi:type="CustomFunctions">
             <Script>
