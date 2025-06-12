@@ -29,7 +29,7 @@
             ],
             "result": {
                 "dimensionality": "matrix",
-                "type": "number"
+                "type": "string"
             }
         }
     ]
