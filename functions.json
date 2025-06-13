@@ -2,21 +2,6 @@
     "allowCustomDataForDataTypeAny": true,
     "functions": [
         {
-            "description": "Writes a message to console.log().",
-            "id": "LOG",
-            "name": "LOG",
-            "parameters": [
-                {
-                    "description": "String to write.",
-                    "name": "message",
-                    "type": "string"
-                }
-            ],
-            "result": {
-                "type": "string"
-            }
-        },
-        {
             "description": "Возвращает ряд факториалов от 0 до n.",
             "id": "FACTORIALROW",
             "name": "FACTORIALROW",
