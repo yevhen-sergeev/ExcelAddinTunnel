@@ -2,12 +2,11 @@
     "allowCustomDataForDataTypeAny": true,
     "functions": [
         {
-            "description": "Возвращает ряд факториалов от 0 до n.",
+            "description": "Return row of factorial from 0 to n.",
             "id": "FACTORIALROW",
             "name": "FACTORIALROW",
             "parameters": [
                 {
-                    "description": "Число, до которого считать факториалы",
                     "name": "n",
                     "type": "number"
                 }
